@@ -1,0 +1,31 @@
+.intro {
+
+  background-image: url("../images/IMG_9417-min.jpeg");
+  background-position: center;
+  background-size: cover;
+  position: inherit;
+  height:125vh;
+  width: 100%;
+
+}
+
+.intro2 {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height:125vh;
+  color: white;
+  padding-top: 50px;
+}
+.Card{
+  border: 2px solid #FFFFFF ;
+  background-color: none;
+  margin-left:100px;
+  margin-right:100px;
+}
+.icon:hover{
+  font-weight: bold;
+}
+li:hover {
+  font-weight: bold;
+}
+
