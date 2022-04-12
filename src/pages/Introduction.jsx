@@ -2,15 +2,21 @@ import React from 'react';
 import './Introduction.css';
 import { Icon} from 'react-materialize';
 import { Link } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 
 class Introduction extends React.Component {
 	render() {
 		
 		return (
-			<div className='intro' onClick={() => {window.location = '/';}}>
+			<div
+				className='intro'
+				onClick={() => {
+					window.location = '/';
+				}}
+			>
 				<div className='intro2'>
-					<h2 style={{ fontFamily: 'Monoton' }}>Introduction</h2>
+					<h2 style={{ fontFamily: 'Monoton', fontSize: '8vw' }}>Introduction</h2>
 					<br />
 					<div className='Card'>
 						<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px' }}>
@@ -31,6 +37,7 @@ class Introduction extends React.Component {
 						<p>Bonne visite et à bientôt pour de nouveaux projets. </p>
 					</div>
 				</div>
+				<Footer/>
 			</div>
 		);
 	}

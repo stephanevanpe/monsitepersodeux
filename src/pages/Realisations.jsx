@@ -4,7 +4,7 @@ import { Icon } from 'react-materialize';
 import { Link } from 'react-router-dom';
 import gps from '../images/gps.png';
 import aps from '../images/aps.png';
-
+import Footer from '../components/Footer';
 
 const Realisations = () => {
 	return (
@@ -15,7 +15,7 @@ const Realisations = () => {
 			}}
 		>
 			<div className='intro2'>
-				<h2 style={{ fontFamily: 'Monoton' }}>Projets</h2>
+				<h2 style={{ fontFamily: 'Monoton', fontSize: '8vw' }}>Projets</h2>
 				<br />
 				<div className='Card'>
 					<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px' }}>
@@ -105,6 +105,7 @@ const Realisations = () => {
 					</div>
 				</div>
 			</div>
+			<Footer/>
 		</div>
 	);
 };

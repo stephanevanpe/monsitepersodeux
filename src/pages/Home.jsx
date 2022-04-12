@@ -15,7 +15,7 @@ const Home = () => {
 				<img alt='' className=' profil circle center-align' src={profil} />
 				<Row>
 					<h1 style={{ fontFamily: 'Lavishly Yours' }}>Stéphane Van-Pé</h1>
-					<h2 style={{ fontFamily: 'Monoton' }}>Développeur Web et Web Mobile</h2>
+					<h2 style={{ fontFamily: 'Monoton', fontSize: '8vw' }}>Développeur Web et Web Mobile</h2>
 				</Row>
 				<br />
 				<Row>

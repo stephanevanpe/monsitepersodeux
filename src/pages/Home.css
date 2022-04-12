@@ -3,14 +3,14 @@
   background-image: url("../images/IMG_9417-min.jpeg");
   background-position: center;
   background-size:cover;
-  height:100vh;
+  height:150vh;
   width: 100%;
 
 }
 .home2{
   text-align: center;
   background-color: rgba(0,0,0, 0.6);
-  height: 100vh;
+  height: 150vh;
   color:white;
   padding-top:50px;
 }
