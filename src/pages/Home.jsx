@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import pdf from './cv_svp.pdf';
 import profil from '../images/IMG_4191.png';
 import ReactTypingEffect from 'react-typing-effect';
-import { inherits } from 'util';
+
 
 
 const Home = () => {
