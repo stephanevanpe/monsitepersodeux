@@ -1,6 +1,6 @@
 import React from 'react';
 import './Introduction.css';
-import { Icon } from 'react-materialize';
+import { CloseButton } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
@@ -16,16 +16,16 @@ const Error = () => {
 				<h2 style={{ fontFamily: 'Monoton', fontSize: '8vw' }}>Oups !!</h2>
 				<br />
 				<div className='Card'>
-					<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px' }}>
+					<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px', marginTop: '10px' }}>
 						<Link to='/' style={{ color: 'white' }}>
-							<Icon className='icon'>close</Icon>
+							<CloseButton variant='white' disabled />
 						</Link>
 					</p>
 
 					<p>Je suis désole de vous dire que la page que vous recherchez n'existe pas.</p>
 				</div>
 			</div>
-			<Footer/>
+			<Footer />
 		</div>
 	);
 }

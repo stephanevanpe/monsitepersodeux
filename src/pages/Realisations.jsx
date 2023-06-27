@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-import { Icon } from 'react-materialize';
+import { CloseButton } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import gps from '../images/gps.png';
 import aps from '../images/aps.png';
@@ -18,9 +18,9 @@ const Realisations = () => {
 				<h2 style={{ fontFamily: 'Monoton', fontSize: '8vw' }}>Projets</h2>
 				<br />
 				<div className='Card'>
-					<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px' }}>
+					<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px', marginTop: '10px' }}>
 						<Link to='/' style={{ color: 'white' }}>
-							<Icon className='icon'>close</Icon>
+							<CloseButton variant='white' disabled />
 						</Link>
 					</p>
 					<div style={{ columnWidth: '30em' }}>

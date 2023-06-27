@@ -1,6 +1,6 @@
 import React from 'react';
 import './Introduction.css';
-import { Icon} from 'react-materialize';
+import { CloseButton } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import Footer from '../components/Footer';
 
@@ -19,9 +19,9 @@ class Introduction extends React.Component {
 					<h2 style={{ fontFamily: 'Monoton', fontSize: '8vw' }}>Introduction</h2>
 					<br />
 					<div className='Card'>
-						<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px' }}>
+						<p style={{ position: 'inherit', textAlign: 'right', marginRight: '20px', marginTop: '10px' }}>
 							<Link to='/' style={{ color: 'white' }}>
-								<Icon className='icon'>close</Icon>
+								<CloseButton variant='white' disabled />
 							</Link>
 						</p>
 						<p>Bienvenue sur mon site personnel.</p>
@@ -37,7 +37,7 @@ class Introduction extends React.Component {
 						<p>Bonne visite et à bientôt pour de nouveaux projets. </p>
 					</div>
 				</div>
-				<Footer/>
+				<Footer />
 			</div>
 		);
 	}
